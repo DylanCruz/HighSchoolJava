@@ -1,0 +1,32 @@
+import java.util.Scanner;
+/**
+ * Enter numbers, recieve standard deviation.
+ * 
+ * @author Dylan
+ * @version 1.0 (12/28/11)
+ */
+public class standardDeviation
+{
+    public static void main(String [] args)
+    {
+        System.out.print("\f");
+        
+        Scanner scan = new Scanner(System.in);
+        int [] array = new int[100];
+        int i = 0;
+        int count = -1;
+        
+        System.out.println("Please enter your numbers, type 999 to finish.");
+        
+        for(i = 0; i < array.length; i++)
+        {
+            array[i] = scan.nextInt();
+            count++;
+            if(array[i] == 999)
+                break;
+        }           
+        System.out.print("You entered " + count);
+        
+        int [] newArray = new int[count];
+    }
+}

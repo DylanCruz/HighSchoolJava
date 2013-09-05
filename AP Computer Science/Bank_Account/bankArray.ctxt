@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=accts
+comment1.target=void\ readInData(java.util.ArrayList)
+comment2.params=accts
+comment2.target=void\ writeOutData(java.util.ArrayList)
+comment3.params=
+comment3.target=int\ menu()
+comment4.params=accts
+comment4.target=void\ withdraw(java.util.ArrayList)
+comment5.params=accts
+comment5.target=void\ deposit(java.util.ArrayList)
+comment6.params=accts
+comment6.target=void\ enterAccount(java.util.ArrayList)
+comment6.text=\r\n\ This\ method\ will\ allow\ users\ to\ enter\ back\ accounts\ into\ the\ array\ list\r\n\ If\ the\ user\ enters\ done\ for\ the\ name\ then\ exit\ the\ method\r\n
+comment7.params=accts
+comment7.target=void\ findAccount(java.util.ArrayList)
+comment7.text=\r\n\ This\ method\ will\ allow\ a\ user\ to\ enter\ a\ name\ and\ then\ it\ will\ find\ it\ in\ the\ array,\r\n\ if\ the\ name\ is\ not\ in\ the\ array\ it\ will\ print\ out\ an\ error\ message,\ if\ the\ name\ is\r\n\ in\ the\ array\ then\ it\ will\ output\ the\ name\ and\ balance.\r\n
+comment8.params=accts
+comment8.target=void\ printAccount(java.util.ArrayList)
+comment8.text=\r\n\ This\ method\ will\ print\ out\ all\ names\ and\ their\ balances.\r\n
+numComments=9

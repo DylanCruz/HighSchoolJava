@@ -1,0 +1,40 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.7.0\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-source
+1.7
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+S:\RockPaperScissors\doc
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.8.2.jar;S:\gridworldcode\GridWorldCode\gridworld.jar;S:\RockPaperScissors
+-encoding
+UTF-8
+-charset
+UTF-8
+S:\RockPaperScissors\RPSGame.java
+<---- end of javadoc command ---->
+Loading source file S:\RockPaperScissors\RPSGame.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0
+Building tree for all the packages and classes...
+Generating S:\RockPaperScissors\doc\RPSGame.html...
+S:\RockPaperScissors\RPSGame.java:136: warning - @param argument "-" is not a parameter name.
+S:\RockPaperScissors\RPSGame.java:146: warning - @param argument "-" is not a parameter name.
+S:\RockPaperScissors\RPSGame.java:106: warning - @param argument ":" is not a parameter name.
+Generating S:\RockPaperScissors\doc\package-frame.html...
+Generating S:\RockPaperScissors\doc\package-summary.html...
+Generating S:\RockPaperScissors\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating S:\RockPaperScissors\doc\allclasses-frame.html...
+Generating S:\RockPaperScissors\doc\allclasses-noframe.html...
+Generating S:\RockPaperScissors\doc\index.html...
+3 warnings

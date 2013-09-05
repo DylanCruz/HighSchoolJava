@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RPSGame()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ RPSGame\r\n
+comment1.params=
+comment1.target=void\ reset()
+comment1.text=\r\n\ Resets\ game\ stats.\r\n
+comment2.params=
+comment2.target=int\ getComputerWins()
+comment2.text=\r\n\ Returns\ the\ number\ of\ times\ the\ computer\ has\ won.\r\n
+comment3.params=
+comment3.target=int\ getHumanWins()
+comment3.text=\r\n\ Returns\ the\ number\ of\ times\ the\ inferior\ human\ has\ won.\r\n
+comment4.params=
+comment4.target=int\ getTies()
+comment5.params=
+comment5.target=int\ humanTakesTurn()
+comment5.text=\r\n\ humanTakesTurn\ -\ this\ method\ will\ give\ a\ menu\ for\ the\ user\:\r\n\ \ Choose\:\r\n\ \ \ \ \ \ (1)\ rock\r\n\ \ \ \ \ \ (2)\ paper\r\n\ \ \ \ \ \ (3)\ scissors\r\n\ \ \ \ \ \ (4)\ reset\ game\r\n\ \ Please\ enter\ 1,\ 2,\ 3\ or\ 4\:\r\n\ \ \r\n\ \ this\ method\ uses\ the\ scanner\ class\ to\ allow\ the\ user\ to\ input\ something\r\n
+comment6.params=h
+comment6.target=void\ play(int)
+comment6.text=\r\n\ play\ game\ -\ input\ parameters\r\n\ @param\ \:\ \ \ \ \ h\ \=\ human\ choice\ (\ 1\ \=\ rock,\ 2\ \=\ paper,\ 3\ \=\ scissors)\r\n\ \r\n\ This\ method\ will\ instantiate\ a\ computer\ object\ and\ invoke\ the\ computerTakesTurnMethod\r\n\ then\ check\ if\ human\ or\ computer\ won\ or\ is\ it\ a\ tie\ --\ keep\ track\ of\ game\ stats\r\n
+comment7.params=
+comment7.target=java.lang.String\ getGameResults()
+comment7.text=\r\n\ getGameResults\r\n\ @param\ -\ outputs\ string\ reflecting\ how\ the\ human\ did\ against\ the\ computer.\r\n
+comment8.params=
+comment8.target=java.lang.String\ getOveralGameStatus()
+comment8.text=\r\n\ getOveralGameStatus\r\n\ @param\ -\ outputs\ string\ reflecting\ how\ the\ human\ did\ against\ the\ computer.\r\n
+numComments=9

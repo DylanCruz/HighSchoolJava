@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Receipt()
+comment1.params=price
+comment1.target=void\ printR(double)
+comment1.text=\r\n\ Print\ out\ a\ sales\ receipt\r\n\ \r\n\ @param\ \ price\ \:\ price\ of\ an\ item\ for\ sale\r\n\ @return\ \ \ \ \ \ \r\n
+numComments=2

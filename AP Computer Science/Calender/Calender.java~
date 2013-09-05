@@ -1,0 +1,75 @@
+
+/**
+ * Write a description of class Calender here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Calender
+{
+    private int mth, dt, yr;
+
+    public Calender()
+    {
+     mth = 0;
+     dt = 0;
+     yr = 0;
+    }
+
+    public Calender(int date, int month, int year)
+    {
+        dt = date;
+        mth = month;
+        yr = year;
+    }
+
+    public int getDate()
+    {
+        return dt;
+    }
+    
+    public int getMonth()
+    {
+        return mth;
+    }
+    
+    public int getYear()
+    {
+        return yr;
+    }
+    
+    public String getMonthName()
+    {
+        if(mth == 1)
+            System.out.println("January");
+        else if(mth == 2)
+            System.out.println("February");
+        else if(mth == 3)
+            System.out.println("March");
+        else if(mth == 4)
+            System.out.println("April");
+        else if(mth == 5)
+            System.out.println("May");
+        else if(mth == 6)
+            System.out.println("June");
+        else if(mth == 7)
+            System.out.println("July");
+        else if(mth == 8)
+            System.out.println("August");
+        else if(mth == 9)
+            System.out.println("September");
+        else if(mth == 10)
+            System.out.println("October");
+        else if(mth == 11)
+            System.out.println("November");
+        else if(mth == 12)
+            System.out.println("December");
+        else
+            System.out.println("You put in a non-existent month.");
+    }
+
+    public void setYear(int newYear)
+    {
+        
+    }    
+}

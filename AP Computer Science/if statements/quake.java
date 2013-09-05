@@ -1,0 +1,26 @@
+
+/**
+ * Write a description of class quake here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class quake
+{
+   public static void main(String [] args)
+   {
+       int richter;
+       
+       richter = -1;
+       
+       
+        if (richter >=0)
+            if (richter <=4)
+                System.out.println("Harmless");
+            else
+                System.out.println("Harmful");
+        else
+            System.out.println("No negative");
+            
+    }  
+}

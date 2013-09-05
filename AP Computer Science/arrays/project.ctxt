@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=a\ pos
+comment1.target=int\ findZero(int[],\ int)
+comment1.text=\r\n\ findZero\ -\ returns\ the\ index\ of\ the\ occurence\ of\ zero\ of\ an\ array,\ -1\ if\ not\ found.\r\n\ @param\ input\ -\ A\:\ integer\ array\ -\ array\ of\ integers\ to\ search\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ pos\:\ integer\ of\ the\ position\ to\ start\ searching\r\n\ @param\ output\ -\ int\ -\ index\ of\ zero\ or\ -1\ if\ not\ found\r\n
+comment2.params=a\ f\ s
+comment2.target=void\ setZero(int[],\ int,\ int)
+comment2.text=\r\n\ setZero\ -\ zeroes\ inbetween\ the\ zeroes\ to\ zero.\r\n\ @param\ input\ -\ a\:\ integer\ array\ -\ array\ of\ integers\ to\ search\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ f\:\ integer\ value\ of\ the\ index\ of\ the\ first\ zero\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ s\:\ integer\ value\ of\ the\ index\ of\ the\ second\ zero\r\n\ @param\ output\ -\ nothing\ \:(\r\n
+numComments=3

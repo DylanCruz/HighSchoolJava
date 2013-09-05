@@ -1,0 +1,37 @@
+
+/**
+ * Write a description of class painting here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class painting
+{
+   private double height;
+   private double length;
+   private double width;
+
+    /**
+     * Constructor for objects of class dimensions
+     */
+    public painting(double h, double l, double w)
+    {
+        // initialise instance variables
+       height = h;
+       length = l;
+       width = w;
+    }
+
+    /**
+     * Calculates paint cans needed to paint a room.
+     */
+    public void paintCans()
+    {
+        // put your code here
+        double sA = length * width + 2 * length * height + 2 * width * height;
+        double paint = sA / 400;
+        
+        System.out.println("The amount of paint cans needed is: " + paint);
+    }
+    
+}

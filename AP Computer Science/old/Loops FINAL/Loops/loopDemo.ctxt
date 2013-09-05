@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=loopDemo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ loopDemo\r\n
+comment1.params=
+comment1.target=void\ example()
+comment1.text=\r\n\ An\ example\ of\ for\ and\ while\ loops\r\n\ \ \ \ \r\n
+comment2.params=
+comment2.target=void\ whileExample()
+comment3.params=
+comment3.target=void\ userInput()
+numComments=4

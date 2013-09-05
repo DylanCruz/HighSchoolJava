@@ -1,0 +1,32 @@
+import java.util.Random;
+import java.util.Scanner;
+/**
+ * Come on down and try your luck at our new game, Guess The Number! Simply guess a number from 0 - 5.
+ * If you get it right, you will be heading home with a BRAND NEW CAR!!
+ * 
+ * @author Dylan Cruz
+ * @version 1.0 (10/11/11)
+ */
+public class guessTheNumber extends quake
+{
+
+    public static void main(String [] args)
+    {
+        System.out.println('\f'); //Clear screen
+        Random gen = new Random(); //Instantiate a new random # generator
+        int compNum = gen.nextInt(6); //Random number from 0-5
+        Scanner keyboard = new Scanner(System.in); //Instantiate a new scanner
+        
+        System.out.println("Come on down and try your luck at our new game, Guess The Number! Simply guess a number from 0 - 5.");
+        System.out.println("If you get it right, you will be heading home with a BRAND NEW CAR!!");
+        
+        System.out.println("Please choose a number ranging from 0 through 5");
+        int userNum = keyboard.nextInt(); //get input
+        
+        if (compNum == userNum)
+            System.out.println("Congratulations, you win! We're sorry, we're all out of cars at the moment, good night.");
+        else
+            System.out.println("You lose, you win nothing. Good day sir");
+    }
+}
+

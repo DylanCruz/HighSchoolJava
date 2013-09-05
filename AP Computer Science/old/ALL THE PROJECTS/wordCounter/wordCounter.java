@@ -1,0 +1,44 @@
+import java.util.Scanner;
+/**
+ * Write a description of class wordCounter here.
+ * 
+ * @author DYlan Cruz
+ * @version 12/7/11
+ */
+public class wordCounter
+{
+    public static void main (String [] args)
+    {
+        Scanner keyboard = new Scanner(System.in);        
+        String word = "";
+        boolean flag = true;
+        String shortWord = "youweren'tsupposedtoseethis";
+        String longWord = "";
+        int count = -1;       
+        
+        System.out.print("\f");
+        while (flag == true)
+        {
+            System.out.println("Enter one word at a time, then enter 999 to end.");
+            word = keyboard.next();
+            count++;        
+        
+            if (word.equals("999") == true)
+                flag = false;
+            else
+            {
+                if (word.length() < shortWord.length())
+                shortWord = word;
+                if (word.length() > longWord.length())
+                longWord = word;                   
+            }
+        }
+        
+        System.out.println("You have entered: " + count + " word(s).");
+        System.out.println(shortWord + " is the smallest word.");
+        System.out.println(longWord + " is the longest word.");
+        
+    }
+    
+}
+

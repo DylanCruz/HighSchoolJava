@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=hF\ hI
+comment0.target=height(double,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ height\r\n
+comment1.params=
+comment1.target=void\ coversions()
+comment1.text=\r\n\ Converts\ to\ total\ height\ to\ total\ inches,\ and\ then\ height\ in\ cenimeters.\r\n
+numComments=2

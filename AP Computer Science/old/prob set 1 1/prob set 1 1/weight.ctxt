@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=w
+comment0.target=weight(double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ weight\r\n
+comment1.params=
+comment1.target=void\ convertWeight()
+comment1.text=\r\n\ Converts\ pounds\ to\ kilograms\r\n
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=randomHelper()
+comment1.params=
+comment1.target=int\ computerTakesTurn()
+comment1.text=\r\n\ ComputerTakesTurn\ \:\ uses\ random\ generator\ to\ get\ a\ value\ 1,\ 2\ or\ 3\r\n\ @param\ -\ outputs\ computer\ choice\ 1\ \=\ rock,\ 2\ \=\ paper,\ 3\ \=\ scissors\r\n
+numComments=2

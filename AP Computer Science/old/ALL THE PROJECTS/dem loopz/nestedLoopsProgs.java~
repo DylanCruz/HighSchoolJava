@@ -1,0 +1,195 @@
+
+/**
+ * Nested loops problem set.
+ * 
+ * @author Dylan Cruz
+ * @version 1.0 (10/31/11
+ */
+public class nestedLoopsProgs
+{
+    // instance variables - replace the example below with your own]
+
+    /**
+     * Constructor for objects of class nestedLoopsProgs
+     */
+    public nestedLoopsProgs()
+    {
+        
+    }
+
+    /**
+     * Passes an integer, n, then prints a square containing all the integers frmo 1 to n.
+     */
+    public void printSquare(int n)
+    {
+        System.out.println("\f");
+        for(int i=1;i<=n;i++)
+        {
+            for(int a=1;a<=n; a++)
+            {
+                System.out.print(a + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    /**
+     * 6 colums wide with rows dependent on x. #2A
+     */
+    public void printColumnsA(int n)
+    {
+        System.out.print("\f");
+        for(int i=1;i<=n;i++)
+        {
+            for(int a=1;a<=6;a++)
+            {
+                System.out.print("X");
+            }
+            System.out.println();
+        }
+       
+    }
+
+    /**
+     * 6 rows long with columns dependent on x. #2B
+     */
+    public void printColumnsB(int n)
+    {
+        System.out.print("\f");
+        for(int i=1;i<=6;i++)
+        {
+            for(int a=1;a<=n;a++)
+            {
+                System.out.print("X");
+            }
+            System.out.println();
+        }
+    }
+
+    /**
+     * Prints the height and width entered by user with Xs #2C
+     */
+    public void printColumnsC(int w, int h)
+    {
+        System.out.print("\f");
+        for(int i=1;i<=h;i++)
+        {
+            for(int a=1;a<=w;a++)
+            {
+                System.out.print("X");
+            }
+            System.out.println();
+        }
+    }
+
+    /**
+     * Takes a number, n, and prints out the numbers 1 - n diagonolly.
+     */
+    public void diagonol(int n)
+    {
+        System.out.print("\f");
+        for(int i=1;i<=n;i++)
+        {
+           for(int a=1;a<i;a++)
+            {
+                System.out.print("_");
+            }
+           System.out.println(i);
+        }
+    }
+
+    /**
+     * 4 methods that point a triangle in different ways. i don't know how i'm going to do this one X_X
+     * Day 1: Some progress
+     * Day 2: No Progress
+     * Day 3: No progress
+     * Day 3.5: Restart
+     * Day 3.75: Peter makes a miracle.
+     */
+    public void pointDown(int n)
+    {
+        System.out.print("\f");
+        if(n%2==0)
+        {
+            System.out.println("Invalid Number");
+        }
+        else{
+        for(int i=1;i<=n;i++)
+        {
+            for(int a=1;a<i;a++)
+            {
+                System.out.print("-");
+            }
+            
+            for(int q=1;q<=n-((2*i)-1)+1;q++)
+            {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+        }
+    }
+
+    /**
+     * What you know 'bout point up haters?
+     */
+        public void pointUp(int n)
+    {
+        System.out.print("\f");
+        if(n%2==0)
+        {
+            System.out.println("Invalid Number");
+        }
+        else{
+        for(int i=n;i>=1;i-=2)
+        {
+            for(int a=i;a>=1;a-=2)
+            {
+                System.out.print("-");
+            }
+            
+            for(int q=n;q>=i;q-=1)
+            {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+        }
+    }
+
+    /**
+     * Points left, for... people who are... left.
+     */
+    public void pointLeft(int n)
+    {
+        System.out.print("\f");
+        for(int i=n;i>=1;i-=2)
+        {
+            for(int a=i;a>=2;a-=1)
+            {
+                System.out.print("-");
+            }
+            
+            for(int q=n;q>=i;q-=1)
+            {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+    
+        for(int i=n;i>1;i-=2)
+        {
+            for(int a=i;a>=2;a-=1)
+            {
+                System.out.print("-");
+            }
+            
+            for(int q=n;q>=i;q+=1)
+            {
+                System.out.print("#");
+            }
+            System.out.println();
+        }
+    }
+}
+

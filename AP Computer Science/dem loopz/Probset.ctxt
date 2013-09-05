@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=num
+comment0.target=void\ multiTables(int)
+comment0.text=\r\n\ Does\ something\ with\ multiplication\ tables.\ \#1\r\n
+comment1.params=
+comment1.target=void\ coinToss()
+comment1.text=\r\n\ Tosses\ a\ coin.\ \#7\r\n
+comment2.params=
+comment2.target=void\ lottery()
+comment2.text=\r\n\ Hacks\ the\ lottery\ system\ and\ gets\ you\ tonights\ winning\ numbers...\ \#6\r\n
+comment3.params=
+comment3.target=void\ dice()
+comment3.text=\r\n\ Rolls\ 2\ dice,\ checks\ how\ many\ times\ they\ equal\ 7.\ \#7\r\n
+comment4.params=n
+comment4.target=void\ perfectNum(int)
+numComments=5

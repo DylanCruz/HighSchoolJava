@@ -1,0 +1,54 @@
+
+/**
+ * Problem set 1 - #6
+ * 
+ * Calculate the area, volume and circumference of a circle.
+ * 
+ * @author Dylan Cruz
+ * @version 1.0 (9/26/11)
+ */
+public class circle
+{
+    // instance variables - radius, pi
+    private double radius;
+    private final double pi = 3.14159;
+
+    /**
+     * Constructor for objects of class circle
+     * @param r is the radius.
+     */
+    public circle(double r)
+    {
+        radius = r;
+        
+    }
+
+    /**
+     * Method that calculates circumference
+     */
+    public void circumference()
+    {
+        double circum = radius * pi * 2;
+        System.out.println("The cirumference of a circle with radius " + radius + " is " + circum);
+    }
+    
+    /**
+     * Method that calculates area
+     */
+    public void area()
+    {
+        double area = pi * Math.pow(radius,2);
+        System.out.println("The area of a circle with radius " + radius + " is " + area);
+    
+    }
+    
+    /**
+     * Method that calculates area
+     */
+    public void volume()
+    {
+        double volume = 4.0 / 3.0 * pi * Math.pow(radius,3);
+        System.out.println("The volume of a circle with radius " + radius + " is " + volume);
+    
+    }
+}

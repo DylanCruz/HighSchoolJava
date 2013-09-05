@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=loopsProblemSet()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ loopsProblemSet\r\n
+comment1.params=num
+comment1.target=void\ multTable(int)
+comment1.text=\r\n\ \#1\ Mulitplication\ table\ \ \ \ \ \ \r\n
+comment2.params=
+comment2.target=void\ coinToss()
+comment2.text=\r\n\ \#7\ Coin\ Toss\r\n
+comment3.params=
+comment3.target=void\ lotto()
+comment3.text=\r\n\ \#6\ Lotto\r\n
+comment4.params=
+comment4.target=void\ dice()
+comment4.text=\r\n\ \#8\ Two\ fair\ dice\ rolled\ 1000\ times.\ \ Count\ how\ many\ sevens.\r\n
+numComments=5
